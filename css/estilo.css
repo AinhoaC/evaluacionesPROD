@@ -1,0 +1,286 @@
+/*********************/
+/* ESTILO DEL LOGIN */
+
+#ini {
+    background-color: #1C1C1C;
+    margin-top: 15%;
+}
+
+
+#aa {
+    margin-top: 15%;
+}
+
+
+/*******************************/
+/***  PAGINA -- SARRERA  ***/
+
+
+
+h2.tituloSarrera {
+    width: 355px;
+    position: relative;
+    right: -50%;
+    margin-top: 10%;
+}
+
+h4.subSarrera {
+    width: 290px;
+    font-style: italic;
+    position: relative;
+    right: -53%;
+}
+
+p {
+    font-style: italic;
+}
+
+.btnAcceder {
+    width: 100px;
+    height: 35px;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: bold;
+    background-color: #A60902;
+    border-radius: 21px;
+}
+
+
+
+/*******************************/
+/***  PAGINA -- BIENVENIDO  ***/
+
+#marcoBienvenido {
+    position: absolute;
+    right: 340px;
+    bottom: 23%;
+}
+
+span.bienvenido {
+    font-size: 2.5rem;
+}
+
+.btnIniciar {
+    width: 100px;
+    height: 35px;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: bold;
+    background-color: #A60902;
+    border-radius: 21px;
+}
+
+
+
+#marcoL {
+    margin-top: 15%; 
+    width: 50%;    
+}
+
+/*****************************/
+/**** USUARIO --- ADMIN *****/
+
+.botonS {
+    width: 210px;
+    height: 75px;
+    border-radius: 35px;
+    background-color: #A60902;
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+    position: relative;
+    right: -135%;
+    margin-top: 50%;
+    margin-right: 60px;
+    margin-left: 30px;
+}
+
+#cabeceraS {
+    position: relative;
+    right: -257px;
+    margin-top: 10%;
+}
+
+/************************/
+/* PAGINA -- PREGUNTAS */
+
+span#pregunta {
+    color: #A60902;
+    font-weight: 900;
+}
+
+input.botonP:link {
+    text-decoration: none;
+}
+
+input.botonP:hover {
+    color: #00ff00;
+}
+
+input.botonP {
+    width: 115px;
+    height: 40px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    background-color: #A60902;
+    border-radius: 10px;
+    margin-left: 55px;
+}
+
+a.botonP {
+    width: 115px;
+    height: 40px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    background-color: #A60902;
+    border-radius: 10px;
+    margin-left: 55px;
+}
+
+.cbCategoria {
+    position: absolute;
+    /*bottom: 20px;*/
+}
+
+.btnGuardar {
+    width: 150px;
+    height: 45px;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: bold;
+    background-color: #A60902;
+    border-radius: 10px;
+    margin-left: 55px;
+}
+
+/*****************/
+/* PUNTUACION */
+.radio-custom {
+    display: none;
+    cursor: pointer;
+    
+}
+
+.radio-custom:checked ~ label {
+    color: orangered;
+}
+
+label {
+    display: grid;
+    flex: 1;
+    cursor: pointer;
+}
+
+.input-group {
+    display: flex;
+}
+
+.text-group-field {
+    padding: 10px;
+}
+
+.inner-block {
+    position: static;
+    width: 100%;
+    padding-right: 25px;
+    font-size: 1rem;
+}
+
+/*************************/
+/* PAGINA -- BIENVENIDO */
+
+span.bienvenido {
+    font-size: 2.r5em;
+    font-family: fantasy;
+    color: #A60902;
+    font-weight: 900;
+}
+
+
+
+/****************************/
+/* PAGINA -- EVALUACION */
+.botonE {
+    color: white;
+    background-color: #A60902;
+    border: 0px none;
+    border-radius: 5px;
+    margin-left: 165%;
+}
+
+.clsInputUsrPwd {
+    width: 100%;
+}
+
+.clsInputNomMail {
+    width: 100%;
+}
+
+
+
+/************************/
+/* ELEMENTOS GENERALES */
+
+body#fondo {
+    background-image: url('../img/Portada360_p.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.botonMenu {
+    width: 50%;
+    height: 40px;
+    font-size: .8rem;
+    color: white;
+    font-weight: bold;
+    background-color: #A60902;
+    border: 4px solid;
+    border-radius: 20px;
+}
+
+/*******************/
+/* ESTILO BOTONES */
+.boton {
+    width: 150px;
+    height: 40px;
+    font-size: .8rem;
+    color: white;
+    font-weight: bold;
+    background-color: #A60902;
+    border: 4px solid;
+    border-radius: 20px;
+}
+
+.btnBuscar {    
+    width: 100px;
+    height: 40px;
+    font-size: .8rem;
+    color: white;
+    font-weight: bold;
+    background-color: #A60902;
+    border: 4px solid;
+    border-radius: 20px;
+    position: relative;
+    bottom: -15px;
+    margin-left: 7px;
+}
+
+
+
+/*****************/
+/* ESTILO TABLA */
+
+#azul {
+    background-color: #ddebf7;
+}
+
+#verde {
+    background-color: #e2efda;
+}
+
+#naranja {
+    background-color: #fce4d6;
+}
